@@ -5,6 +5,15 @@
 @font-face {
   font-family: "Gotham";
   src: url("../public/fonts/Gotham-Font/GothamMedium.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham";
+  src: url("../public/fonts/Gotham-Font/Gotham-Light.otf");
+  font-weight: 400;
+  font-style: normal;
 }
 
 * {
@@ -32,7 +41,3 @@ body::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.bgColor {
-  background: linear-gradient(200deg, transparent, rgb(24, 24, 24))
-    rgba(237, 102, 48, 1);
-}
