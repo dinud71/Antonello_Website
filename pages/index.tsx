@@ -1,31 +1,60 @@
 import Image from 'next/image'
-import Navbar from '../components/Navbar'
 import Clients from '@/public/images/clients.png'
 import Clients_mob from '@/public/images/clients_mob.png'
 import { workImages } from '@/constants'
-import Footer from '@/components/Footer'
+import Link from 'next/link'
+import icon_1 from '@/public/images/icon_1.png'
+import icon_2 from '@/public/images/icon_2.png'
+import icon_3 from '@/public/images/icon_3.png'
+import icon_4 from '@/public/images/icon_4.png'
 
 const index = () => {
   return (
-    <div className='bg-[#242424] w-full px-3 lg:px-0'>
-      <Navbar />
+    <div className='w-full px-4 lg:px-0 pt-32'>
+      <section id='about' className='container'>
+        <h1 className='text-[30px] text-white font-gotham font-semibold mb-14 lg:hidden'>Elevating <br /> Brand Strategy, <br /> Design, and <br /> Crafting Innovation <br /> Into Success</h1>
+        <h1 className='hidden lg:block text-[60px] text-white font-gotham font-semibold leading-[65px] mb-28'>Elevating Brand Strategy, <br /> Design, and Crafting Innovation <br /> Into Success</h1>
+        <p className='text-[20px] lg:text-[32px] text-white font-gotham font-normal leading-[28px] lg:leading-[40px]'>In 2016, our journey began as a humble design agency. By 2022, we took a significant step forward, incorporating as a private limited company. Today, we stand as a thriving enterprise, having served over 99+ clients and successfully delivered 150+ branding and marketing projects across the globe. In the world of food manufacturing, taste is often impeccable, but brand distinction is frequently overlooked.  Many brand designers lack the specialized expertise to make culinary businesses truly shine. At our core, we exist to defy the ordinary and conquer the competitive landscape. We don't merely replicate others' work and bill for hours; we craft bespoke solutions that come with a premium commitment</p>
+      </section>
 
-      <div className='container'>
-        <h1 className='text-[30px] text-white font-gotham font-semibold mt-40 mb-14 lg:hidden'>Elevating <br /> Brand Strategy, <br /> Design, and <br /> Crafting Innovation <br /> Into Success</h1>
-        <h1 className='hidden lg:block text-[36px] text-white font-gotham font-semibold leading-[45px] mt-32 mb-28'>Elevating Brand Strategy, <br /> Design, and Crafting Innovation <br /> Into Success</h1>
-        <p className='text-[20px] lg:text-[32px] text-white font-gotham font-normal leading-[28px] lg:leading-[40px]'>In 2016, our journey began as a humble design agency. By 2022, we took a significant step forward, incorporating as a private limited company. Today, we stand as a thriving enterprise, having served over 99+ clients and successfully delivered 150+ branding and marketing projects across the globe. In the world of food manufacturing, taste is often impeccable, but brand distinction is frequently overlooked. Many brand designers lack the specialized expertise to make culinary businesses truly shine. At our core, we exist to defy the ordinary and conquer the competitive landscape. We don't merely replicate others' work and bill for hours; we craft bespoke solutions that come with a premium commitment</p>
-      </div>
-
-      <div className='container'>
+      <section id='services' className='container services'>
         <h1 className='text-[32px] lg:text-[45px] text-white text-center font-gotham font-semibold mt-20 lg:mt-20 mb-7'>Our Services</h1>
 
         <div className=' grid lg:grid-cols-4 sm:grid-cols-2 gap-5'>
-          <div className='w-full h-80 p-1.5 text-[35px] text-[#242424] text-center font-semibold leading-[30px] bg-[#5D5D5D] flex items-center justify-center'>Brand Strategy</div>
-          <div className='w-full h-80 p-1.5 text-[35px] text-[#242424] text-center font-semibold leading-[30px] bg-[#5D5D5D] flex items-center justify-center'>Brand Identity design</div>
-          <div className='w-full h-80 p-1.5 text-[35px] text-[#242424] text-center font-semibold leading-[30px] bg-[#5D5D5D] flex items-center justify-center'>Marketing Strategy</div>
-          <div className='w-full h-80 p-1.5 text-[35px] text-[#242424] text-center font-semibold leading-[30px] bg-[#5D5D5D] flex items-center justify-center'>Marketing Execution</div>
+          <div className='w-full h-[40vh] py-10 text-[35px] text-[#242424] text-center font-semibold bg-[#5D5D5D] flex flex-col items-center justify-around'>
+            <div className='flex items-center justify-center'>
+              <Image src={icon_1} alt='' className='w-[80%]' />
+            </div>
+            <p className='leading-[35px]'>
+              Brand <br /> Strategy
+            </p>
+          </div>
+          <div className='w-full h-[40vh] py-10 text-[35px] text-[#242424] text-center font-semibold bg-[#5D5D5D] flex flex-col items-center justify-around'>
+            <div className='flex items-center justify-center'>
+              <Image src={icon_2} alt='' className='w-[80%]' />
+            </div>
+            <p className='leading-[35px]'>
+              Brand Identity <br /> design
+            </p>
+          </div>
+          <div className='w-full h-[40vh] py-10 text-[35px] text-[#242424] text-center font-semibold bg-[#5D5D5D] flex flex-col items-center justify-around'>
+            <div className='flex items-center justify-center'>
+              <Image src={icon_3} alt='' className='w-[80%]' />
+            </div>
+            <p className='leading-[35px]'>
+              Marketing <br /> Strategy
+            </p>
+          </div>
+          <div className='w-full h-[40vh] py-10 text-[35px] text-[#242424] text-center font-semibold bg-[#5D5D5D] flex flex-col items-center justify-around'>
+            <div className='flex items-center justify-center'>
+              <Image src={icon_4} alt='' className='w-[80%]' />
+            </div>
+            <p className='leading-[35px]'>
+              Marketing <br /> Execution
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
 
       <div className='container'>
         <h1 className='text-[32px] lg:text-[45px] text-white text-center font-gotham font-semibold mt-20 lg:mt-20 mb-7'>Our Clients</h1>
@@ -36,21 +65,19 @@ const index = () => {
         </div>
       </div>
 
-      <div className='container'>
+      <section id='works' className='container'>
         <h1 className='text-[32px] lg:text-[45px] text-white text-center font-gotham font-semibold mt-20 lg:mt-20 mb-7'>Our Works</h1>
 
         <div className='grid grid-cols-2 gap-2 lg:gap-5'>
           {
-            workImages.map((image, index) => (
-              <div key={index} className=''>
-                <Image src={image} alt='work image' />
-              </div>
+            workImages.map((item, index) => (
+              <Link href={{ pathname: `/${item.pathname}` }} key={index} className=' overflow-hidden'>
+                <Image src={item.image} alt='work image' className='hover:scale-125 transition-transform duration-300' />
+              </Link>
             ))
           }
         </div>
-      </div>
-
-      <Footer />
+      </section>
     </div>
   )
 }

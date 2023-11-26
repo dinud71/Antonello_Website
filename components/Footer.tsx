@@ -6,8 +6,8 @@ import Link from "next/link"
 
 const Footer = () => {
     return (
-        <div className='container'>
-            <section className="mt-10 items-center lg:mt-20 grid grid-cols-1 lg:grid-cols-2">
+        <div className='container px-4 md:px-0'>
+            <section id='contact' className="mt-10 items-center lg:mt-20 grid grid-cols-1 lg:grid-cols-2">
                 <div className="flex items-center justify-center lg:col-end-1">
                     <Image src={Logo_2} alt="logo" className='w-1/2 sm:w-[30%] md:w-1/2 lg:w-2/3' />
                 </div>
@@ -29,7 +29,6 @@ const Footer = () => {
                     <div className="flex flex-col lg:flex-row justify-between">
                         <div className="flex items-start justify-between">
                             <div className="flex flex-col">
-
                                 <div>
                                     <Link className="text-white text-[12px] font-gotham font-light underline cursor-pointer lg:text-[14px] lg:text-left lg:mb-0" href={{ pathname: 'https://www.instagram.com/antonello.studio/' }}>
                                         Instagram
