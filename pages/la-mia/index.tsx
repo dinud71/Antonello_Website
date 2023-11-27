@@ -20,7 +20,7 @@ import img_16 from '@/public/images/la_mia/img_16.png'
 const Index = () => {
     return (
         <div className="w-full px-4 lg:px-0 pt-32">
-            <div className="container">
+            <div className="container pt-60">
                 <h1 className='text-[30px] text-white font-gotham font-semibold mb-14 lg:hidden'>La Mia- <br /> Brand Product, <br /> Package,</h1>
                 <h1 className='hidden lg:block text-[60px] text-white font-gotham font-semibold leading-[45px] mb-10'>La Mia- Brand Product, Package,</h1>
                 <p className='text-[20px] lg:text-[32px] text-white font-gotham font-normal leading-[28px] lg:leading-[40px]'>

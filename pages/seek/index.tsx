@@ -22,7 +22,7 @@ import img_18 from '@/public/images/seek/img_18.png'
 const Index = () => {
     return (
         <div className="w-full px-4 lg:px-0 pt-32">
-            <div className="container">
+            <div className="container pt-60">
                 <h1 className='text-[30px] text-white font-gotham font-semibold mb-14 lg:hidden'>Seek-  <br /> Brand Strategy, <br /> and Package</h1>
                 <h1 className='hidden lg:block text-[60px] text-white font-gotham font-semibold leading-[45px] mb-10'>Seek- Brand Strategy, and Package</h1>
             </div>

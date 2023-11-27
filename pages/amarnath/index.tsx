@@ -15,7 +15,7 @@ import img_11 from '@/public/images/amaranth/img_11.png'
 const index = () => {
     return (
         <div className="w-full px-4 lg:px-0 pt-32">
-            <div className="container">
+            <div className="container pt-60">
                 <h1 className='text-[30px] text-white font-gotham font-semibold mb-14 lg:hidden'>Black Sea Amaranth- <br /> Brand Strategy, <br /> and Identity</h1>
                 <h1 className='hidden lg:block text-[60px] text-white font-gotham font-semibold leading-[45px] mb-10'>Black Sea Amaranth- Brand Strategy, and Identity</h1>
                 <p className='text-[20px] lg:text-[32px] text-white font-gotham font-normal leading-[28px] lg:leading-[40px]'>

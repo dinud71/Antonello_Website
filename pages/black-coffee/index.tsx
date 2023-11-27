@@ -16,7 +16,7 @@ import img_12 from '@/public/images/black_coffee/img_12.png'
 const Index = () => {
     return (
         <div className="w-full px-4 lg:px-0 pt-32">
-            <div className="container">
+            <div className="container pt-60">
                 <h1 className='text-[30px] text-white font-gotham font-semibold mb-14 lg:hidden'>Black Coffee-  <br /> Brand Strategy, <br /> and Package</h1>
                 <h1 className='hidden lg:block text-[60px] text-white font-gotham font-semibold leading-[45px] mb-10'>Black Coffee- Brand Strategy, and Package</h1>
 

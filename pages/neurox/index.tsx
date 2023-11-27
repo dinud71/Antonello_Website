@@ -19,7 +19,7 @@ import img_15 from '@/public/images/neurox/img_15.png'
 const Index = () => {
     return (
         <div className="w-full px-4 lg:px-0 pt-32">
-            <div className="container">
+            <div className="container pt-60">
                 <h1 className='text-[30px] text-white font-gotham font-semibold mb-14 lg:hidden'>Neurox-  <br /> Brand Strategy, <br /> and Identity</h1>
                 <h1 className='hidden lg:block text-[60px] text-white font-gotham font-semibold leading-[45px] mb-10'>Neurox- Brand Strategy, And Identity,</h1>
             </div>

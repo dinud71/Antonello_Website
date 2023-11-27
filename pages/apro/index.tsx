@@ -21,7 +21,7 @@ import img_17 from '@/public/images/apro/img_17.png'
 const Index = () => {
     return (
         <div className="w-full px-4 lg:px-0 pt-32">
-            <div className="container">
+            <div className="container pt-60">
                 <h1 className='text-[30px] text-white font-gotham font-semibold mb-14 lg:hidden'>APRO- <br /> Brand Strategy, <br /> and Identity</h1>
                 <h1 className='hidden lg:block text-[60px] text-white font-gotham font-semibold leading-[45px] mb-10'>APRO- Brand Strategy, and Identity</h1>
             </div>

@@ -11,7 +11,7 @@ import icon_4 from '@/public/images/icon_4.png'
 const index = () => {
   return (
     <div className='w-full px-4 lg:px-0 pt-32'>
-      <section id='about' className='container'>
+      <section id='about' className='container pt-60'>
         <h1 className='text-[30px] text-white font-gotham font-semibold mb-14 lg:hidden'>Elevating <br /> Brand Strategy, <br /> Design, and <br /> Crafting Innovation <br /> Into Success</h1>
         <h1 className='hidden lg:block text-[60px] text-white font-gotham font-semibold leading-[65px] mb-28'>Elevating Brand Strategy, <br /> Design, and Crafting Innovation <br /> Into Success</h1>
         <p className='text-[20px] lg:text-[32px] text-white font-gotham font-normal leading-[28px] lg:leading-[40px]'>In 2016, our journey began as a humble design agency. By 2022, we took a significant step forward, incorporating as a private limited company. Today, we stand as a thriving enterprise, having served over 99+ clients and successfully delivered 150+ branding and marketing projects across the globe. In the world of food manufacturing, taste is often impeccable, but brand distinction is frequently overlooked.  Many brand designers lack the specialized expertise to make culinary businesses truly shine. At our core, we exist to defy the ordinary and conquer the competitive landscape. We don't merely replicate others' work and bill for hours; we craft bespoke solutions that come with a premium commitment</p>

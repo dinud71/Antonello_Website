@@ -52,9 +52,9 @@ const Navbar = () => {
     <div className="lg:container relative">
       <header className="">
         <div className="py-4 px-4 lg:px-0 flex items-start justify-between">
-          <div>
+          <Link href={'/'}>
             <Image src={Logo} alt="logo" className="w-20 lg:w-full" />
-          </div>
+          </Link>
           <button onClick={() => setIsActive(!isActive)} className=" cursor-pointer">
             <Menu color="white" />
           </button>

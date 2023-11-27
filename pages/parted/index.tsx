@@ -22,7 +22,7 @@ import img_18 from '@/public/images/parted/img_18.png'
 const Index = () => {
     return (
         <div className="w-full px-3 lg:px-0 pt-32">
-            <div className="container">
+            <div className="container pt-60">
                 <h1 className='text-[30px] text-white font-gotham font-semibold mb-14 lg:hidden'>Parted- <br /> Brand Strategy, <br /> and Architecture,</h1>
                 <h1 className='hidden lg:block text-[60px] text-white font-gotham font-semibold leading-[45px] mb-10'>Parted- Brand Strategy, Architecture,</h1>
                 <p className='text-[20px] lg:text-[32px] text-white font-gotham font-normal leading-[28px] lg:leading-[40px]'>
