@@ -41,3 +41,12 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar-track {
   background: transparent;
 }
+
+.overflow-y-auto::-webkit-scrollbar {
+  width: 0em;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
